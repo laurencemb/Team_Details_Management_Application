@@ -1,0 +1,28 @@
+{
+  "name": "team_details_management_application",
+  "version": "1.0.0",
+  "description": "A command line application which takes team member details and generates a HTML webpage displaying summaries  for each individual on the team.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurencemb/Team_Details_Management_Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurencemb/Team_Details_Management_Application/issues"
+  },
+  "homepage": "https://github.com/laurencemb/Team_Details_Management_Application#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
