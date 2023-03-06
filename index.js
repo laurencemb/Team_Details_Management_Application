@@ -17,3 +17,34 @@ const e = new Employee("Alice", 100, "test@test.com" )
 
 // TODO: Write Code to gather information about the development team members, and render the HTML file.
 
+inquirer.prompt ([
+    {
+        type: 'input',
+        name: 'name',
+        message: 'Please Enter the Team Managers Full Name'
+    },
+    {
+        type: 'number',
+        name: 'Id',
+        message: 'Please Enter the Team Managers 4 digit numeric employee ID'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please Enter the Team Managers work email address'
+    },
+    {
+        type: 'input',
+        name: 'office',
+        message: 'Please Enter the Team Managers office name'
+    },
+    {
+        type: 'choice',
+        name: 'employee type',
+        message: 'Would you like to add a new team member?:',
+        choices: [ 'Engineer', 'Intern', 'Finish building team' ]
+    }
+
+
+
+])
