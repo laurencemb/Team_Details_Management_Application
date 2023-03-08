@@ -1,6 +1,8 @@
 # Team_Details_Management_Application
 A command line application which takes team member details and generates a HTML webpage displaying summaries  for each individual on the team.
 
+--------------------> GENERATED HTML APPEARS IN SOURCE FILE AS index.html  <--------------------------
+
 ______________________________________________________________
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ______________________________________________________________
